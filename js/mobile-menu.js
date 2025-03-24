@@ -21,19 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
   );
 });
 
-function toggleAnswer(element) {
-  const answer = element.nextElementSibling;
-  const buttonImg = element.querySelector(".class-toggle-button img");
-
-  if (answer.style.display === "none" || answer.style.display === "") {
-    answer.style.display = "block";
-    buttonImg.src = "/img/faq/arrow.png";
-  } else {
-    answer.style.display = "none";
-    buttonImg.src = "/img/faq/icon.png";
-  }
-}
-
 document.addEventListener("DOMContentLoaded", function () {
   const popup = document.getElementById("cookie-popup");
   const acceptButton = document.getElementById("accept-cookies");

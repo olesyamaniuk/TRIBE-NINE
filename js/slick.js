@@ -7,11 +7,9 @@ $(function () {
     autoplay: true,
     autoplaySpeed: 3500,
     speed: 1000,
-    dots: false,
+    dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-gallery-list-left",
-    nextArrow: ".class-gallery-list-right",
   });
 });
 
