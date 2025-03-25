@@ -50,17 +50,17 @@ a {
   scale: 120%;
 }
 
-.class-header.is-open .class-header-background {
+.tribe-header.is-open .tribe-header-background {
   left: 0;
 }
-.class-header-button-wrapper {
+.tribe-header-button-wrapper {
   margin-left: auto;
 }
-.class-header-icon {
+.tribe-header-icon {
   display: none;
 }
 
-.class-header-icon-button {
+.tribe-header-icon-button {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -68,22 +68,22 @@ a {
   border: none;
   border-radius: 50%;
 }
-.class-navigation-list.is-open {
+.tribe-navigation-list.is-open {
   right: 0;
 }
-.class-header-icon-menu {
+.tribe-header-icon-menu {
   display: block;
 }
 
-.class-header-icon-button.is-open .class-header-icon-menu {
+.tribe-header-icon-button.is-open .tribe-header-icon-menu {
   display: none;
 }
 
-.class-header-icon-button.is-open .class-header-icon-close {
+.tribe-header-icon-button.is-open .tribe-header-icon-close {
   display: block;
 }
 
-.class-header {
+.tribe-header {
   position: fixed;
   width: 100%;
   z-index: 5;
@@ -94,7 +94,7 @@ a {
   background: rgba(9, 0, 12, 1);
 }
 
-.class-header-background {
+.tribe-header-background {
   position: absolute;
   top: 0;
   right: 0;
@@ -104,29 +104,29 @@ a {
   transition: left 0.3s ease;
   background: rgba(9, 0, 12, 1);
 }
-.class-header.is-open .class-header-background {
+.tribe-header.is-open .tribe-header-background {
   left: 0;
 }
-.class-header-button-wrapper {
+.tribe-header-button-wrapper {
   margin-right: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.class-header-icon-menu {
+.tribe-header-icon-menu {
   display: block;
 }
 
-.class-header-icon-button.is-open .class-header-icon-menu {
+.tribe-header-icon-button.is-open .tribe-header-icon-menu {
   display: none;
 }
 
-.class-header-icon-button.is-open .class-header-icon-close {
+.tribe-header-icon-button.is-open .tribe-header-icon-close {
   display: block;
 }
 
-.class-navigation {
+.tribe-navigation {
   display: -ms-flexbox;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -142,7 +142,7 @@ a {
   position: relative;
 }
 
-.class-navigation-list {
+.tribe-navigation-list {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -159,11 +159,11 @@ a {
   background: rgba(9, 0, 12, 1);
 }
 
-.class-navigation-list.is-open {
+.tribe-navigation-list.is-open {
   right: 0;
 }
 
-.class-navigation-link {
+.tribe-navigation-link {
   transition: all 0.3s ease-in-out;
   text-decoration: none;
   font-family: Albert Sans;
@@ -175,29 +175,29 @@ a {
   color: rgba(246, 242, 242, 1);
 }
 
-.class-navigation-link:hover,
-.class-navigatioт-link:focus {
+.tribe-navigation-link:hover,
+.tribe-navigatioт-link:focus {
   color: rgba(160, 108, 255, 1);
 }
 
-.class-header.is-open {
+.tribe-header.is-open {
   background-color: transparent;
 }
 
-.class-navigation-img {
+.tribe-navigation-img {
   display: none;
 }
 
 @media screen and (min-width: 1200px) {
-  .class-navigation-img {
+  .tribe-navigation-img {
     display: flex;
     margin-right: 120px;
   }
-  .class-policy-terms-header-icon-menu {
+  .tribe-policy-terms-header-icon-menu {
     display: none;
   }
 
-  .class-header {
+  .tribe-header {
     width: 100%;
     padding: 10px 0px 10px 20px;
     display: flex;
@@ -206,12 +206,12 @@ a {
     z-index: 1000;
   }
 
-  .class-header-background {
+  .tribe-header-background {
   }
-  .class-header-icon-button {
+  .tribe-header-icon-button {
     display: none;
   }
-  .class-navigation {
+  .tribe-navigation {
     display: flex;
     flex-direction: row;
     flex: 1;
@@ -220,7 +220,7 @@ a {
     margin: auto;
   }
 
-  .class-navigation-list {
+  .tribe-navigation-list {
     background-color: transparent;
     flex-direction: row;
     display: flex;
@@ -237,7 +237,7 @@ a {
     justify-content: center;
   }
 
-  .class-navigation-link {
+  .tribe-navigation-link {
     font-family: Albert Sans;
     font-weight: 500;
     font-style: italic;
@@ -249,11 +249,11 @@ a {
     text-decoration: none;
   }
 
-  .class-navigation-item-desk {
+  .tribe-navigation-item-desk {
     display: none;
   }
 }
-.class-home {
+.tribe-home {
   width: 375px;
   height: 812px;
   padding: 140px 16px 0px;
@@ -264,16 +264,16 @@ a {
   margin: auto;
 }
 
-.class-home-container-top {
+.tribe-home-container-top {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.class-home-title-img {
+.tribe-home-title-img {
   width: 343px;
   height: 49px;
 }
-.class-home-title {
+.tribe-home-title {
   font-family: Albert Sans;
   font-weight: 900;
   font-style: italic;
@@ -284,7 +284,7 @@ a {
   padding: 24px 0 76px;
 }
 
-.class-home-text {
+.tribe-home-text {
   font-family: Albert Sans;
   font-weight: 700;
   font-style: italic;
@@ -292,7 +292,7 @@ a {
   line-height: 130%;
   letter-spacing: 0%;
 }
-.class-home-text-two {
+.tribe-home-text-two {
   font-family: Albert Sans;
   font-weight: 700;
   font-style: italic;
@@ -301,35 +301,35 @@ a {
   letter-spacing: 0%;
   padding: 254px 0 8px;
 }
-.class-home-google-button-image {
+.tribe-home-google-button-image {
   width: 256px;
   height: 64px;
 }
 
-.class-home-google-button-link:hover .class-home-google-button-image {
+.tribe-home-google-button-link:hover .tribe-home-google-button-image {
   transform: scale(1.1);
   transition: transform 0.3s ease-in-out;
 }
 
 @media screen and (min-width: 1200px) {
-  .class-home {
+  .tribe-home {
     width: 1440px;
     height: 759px;
     padding: 160px 160px 0px;
     background-image: url("/img/home/Hero\ \(1\).png");
   }
 
-  .class-home-container-top {
+  .tribe-home-container-top {
     display: flex;
     flex-direction: column;
     align-items: start;
   }
 
-  .class-home-title-img {
+  .tribe-home-title-img {
     width: 621px;
     height: 88px;
   }
-  .class-home-title {
+  .tribe-home-title {
     font-family: Albert Sans;
     font-weight: 900;
     font-style: italic;
@@ -341,7 +341,7 @@ a {
     padding: 32px 0 80px;
   }
 
-  .class-home-text {
+  .tribe-home-text {
     font-family: Albert Sans;
     font-weight: 700;
     font-style: italic;
@@ -349,7 +349,7 @@ a {
     line-height: 130%;
     letter-spacing: 0%;
   }
-  .class-home-text-two {
+  .tribe-home-text-two {
     font-family: Albert Sans;
     font-weight: 700;
     font-style: italic;
@@ -360,7 +360,7 @@ a {
     padding: 40px 0 16px;
   }
 }
-.class-why {
+.tribe-why {
   width: 375px;
   height: 1113px;
   margin: auto;
@@ -371,7 +371,7 @@ a {
   background-image: url("/img/Benefits.png");
 }
 
-.class-why-list {
+.tribe-why-list {
   width: 343px;
   display: flex;
   flex-direction: column;
@@ -380,7 +380,7 @@ a {
   margin-top: 47px;
 }
 
-.class-why-text-bold {
+.tribe-why-text-bold {
   font-family: Albert Sans;
   font-weight: 700;
   font-style: italic;
@@ -390,7 +390,7 @@ a {
   color: rgba(160, 108, 255, 1);
 }
 
-.class-why-text {
+.tribe-why-text {
   font-family: Albert Sans;
   font-weight: 500;
   font-style: italic;
@@ -400,13 +400,13 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-why {
+  .tribe-why {
     width: 1440px;
     height: 884px;
     padding: 80px 160px 0;
     background-image: url("/img/Benefits\ \(1\).png");
   }
-  .class-why-list {
+  .tribe-why-list {
     width: 544px;
 
     padding: 24px;
@@ -416,7 +416,7 @@ a {
     margin-left: 576px;
   }
 
-  .class-why-text-bold {
+  .tribe-why-text-bold {
     font-family: Albert Sans;
     font-weight: 700;
     font-style: italic;
@@ -425,7 +425,7 @@ a {
     letter-spacing: 0%;
   }
 
-  .class-why-text {
+  .tribe-why-text {
     font-family: Albert Sans;
     font-weight: 700;
     font-style: italic;
@@ -435,7 +435,7 @@ a {
   }
 }
 
-.class-about {
+.tribe-about {
   padding: 40px 16px 0px;
   margin: auto;
   width: 375px;
@@ -446,7 +446,7 @@ a {
   background-image: url("/img/Game\ Description.png");
 }
 
-.class-about-title {
+.tribe-about-title {
   font-family: Albert Sans;
   font-weight: 900;
   font-style: italic;
@@ -456,7 +456,7 @@ a {
   text-transform: uppercase;
 }
 
-.class-about-text {
+.tribe-about-text {
   width: 343px;
   padding: 24px;
   margin-top: 40px;
@@ -469,13 +469,13 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-about {
+  .tribe-about {
     padding: 80px 160px 0;
     width: 1440px;
     height: 752px;
     background-image: url("/img/Game\ Description\ \(1\).png");
   }
-  .class-about-title {
+  .tribe-about-title {
     font-family: Albert Sans;
     font-weight: 900;
     font-style: italic;
@@ -483,7 +483,7 @@ a {
     line-height: 120%;
     letter-spacing: 0%;
   }
-  .class-about-text {
+  .tribe-about-text {
     width: 544px;
 
     padding: 24px;
@@ -496,7 +496,7 @@ a {
     letter-spacing: 0%;
   }
 }
-.class-characters {
+.tribe-characters {
   padding: 40px 16px;
   margin: auto;
   width: 375px;
@@ -507,14 +507,14 @@ a {
   background-image: url("/img/Main\ Character\ Description.png");
 }
 
-.class-characters-list {
+.tribe-characters-list {
   display: flex;
   flex-direction: column;
   padding: 64px 24px 0;
   gap: 64px;
 }
 
-.class-characters-text-bold {
+.tribe-characters-text-bold {
   font-family: Albert Sans;
   font-weight: 700;
   font-style: italic;
@@ -523,7 +523,7 @@ a {
   letter-spacing: 0%;
 }
 
-.class-characters-text {
+.tribe-characters-text {
   font-family: Albert Sans;
   font-weight: 500;
   font-style: italic;
@@ -533,20 +533,20 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-characters {
+  .tribe-characters {
     padding: 80px 160px;
     width: 1440px;
     height: 686px;
     background-image: url("/img/Main\ Character\ Description\ \(1\).png");
   }
-  .class-characters-list {
+  .tribe-characters-list {
     display: flex;
     flex-direction: row;
     padding: 104px 24px 0;
     gap: 80px;
   }
 
-  .class-characters-text-bold {
+  .tribe-characters-text-bold {
     font-family: Albert Sans;
     font-weight: 700;
     font-style: italic;
@@ -555,7 +555,7 @@ a {
     letter-spacing: 0%;
   }
 
-  .class-characters-text {
+  .tribe-characters-text {
     width: 496px;
     font-family: Albert Sans;
     font-weight: 500;
@@ -566,7 +566,7 @@ a {
   }
 }
 
-.class-reviews {
+.tribe-reviews {
   width: 375px;
   height: 426px;
   margin: auto;
@@ -577,13 +577,13 @@ a {
   background-image: url("/img/Reviews.png");
 }
 
-.class-reviews-list {
+.tribe-reviews-list {
   padding-top: 40px;
 }
-.class-reviews-lists {
+.tribe-reviews-lists {
   display: none;
 }
-.class-reviews-item {
+.tribe-reviews-item {
   margin: 0 5px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -594,7 +594,7 @@ a {
   padding: 24px;
 }
 
-.class-reviews-text-bold {
+.tribe-reviews-text-bold {
   font-family: Albert Sans;
   font-weight: 700;
   font-style: italic;
@@ -604,7 +604,7 @@ a {
   color: rgba(160, 108, 255, 1);
 }
 
-.class-reviews-text {
+.tribe-reviews-text {
   font-family: Albert Sans;
   font-weight: 500;
   font-style: italic;
@@ -615,28 +615,28 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-reviews {
+  .tribe-reviews {
     width: 1440px;
     height: 673px;
     padding: 80px 160px 0;
     background-image: url("/img/Reviews\ \(1\).png");
   }
-  .class-reviews-list {
+  .tribe-reviews-list {
     display: none;
   }
-  .class-reviews-lists {
+  .tribe-reviews-lists {
     display: flex;
     flex-wrap: wrap;
     gap: 32px;
     padding-top: 80px;
   }
-  .class-reviews-item {
+  .tribe-reviews-item {
     margin: 0;
     width: 352px;
     height: 167px;
   }
 
-  .class-reviews-text-bold {
+  .tribe-reviews-text-bold {
     font-family: Albert Sans;
     font-weight: 700;
     font-style: italic;
@@ -645,7 +645,7 @@ a {
     letter-spacing: 0%;
   }
 
-  .class-reviews-text {
+  .tribe-reviews-text {
     font-family: Albert Sans;
     font-weight: 500;
     font-style: italic;
@@ -657,7 +657,7 @@ a {
   }
 }
 
-.class-gallery {
+.tribe-gallery {
   width: 375px;
   height: 330px;
   margin: auto;
@@ -668,13 +668,13 @@ a {
   background-image: url("/img/gallery/Gallery.png");
 }
 
-.class-gallery-list {
+.tribe-gallery-list {
   width: auto;
   padding-top: 30px;
   margin: auto;
 }
 
-.class-gallery-item {
+.tribe-gallery-item {
   width: 327px;
   height: 184px;
   overflow: hidden;
@@ -682,7 +682,7 @@ a {
   margin: 0 8px;
 }
 
-.class-gallery-image {
+.tribe-gallery-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -701,20 +701,20 @@ a {
   display: none;
 }
 @media screen and (min-width: 1200px) {
-  .class-gallery {
+  .tribe-gallery {
     width: 1440px;
     height: 861px;
     padding: 80px 160px 0;
     background-image: url("/img/gallery/Gallery\ \(1\).png");
   }
 
-  .class-gallery-item {
+  .tribe-gallery-item {
     width: 928px;
     height: 522px;
     margin: 0 10px;
   }
 
-  .class-gallery-list {
+  .tribe-gallery-list {
     padding: 79px 0 17px;
   }
   .slick-prev:before {
@@ -763,7 +763,7 @@ a {
   }
 }
 
-.class-features {
+.tribe-features {
   width: 375px;
   height: 1122px;
   margin: auto;
@@ -771,7 +771,7 @@ a {
   padding: 40px 16px 89px;
 }
 
-.class-features-list {
+.tribe-features-list {
   display: flex;
   flex-direction: column;
   padding: 24px;
@@ -780,13 +780,13 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-features {
+  .tribe-features {
     width: 1440px;
     height: 857px;
     background-image: url("/img/Key\ Features\ \(1\).png");
     padding: 80px 160px;
   }
-  .class-features-list {
+  .tribe-features-list {
     width: 544px;
     padding: 24px;
     gap: 16px;
@@ -795,7 +795,7 @@ a {
   }
 }
 
-.class-policy-terms-container {
+.tribe-policy-terms-container {
   padding: 120px 16px 40px;
   width: 375px;
   margin: auto;
@@ -807,7 +807,7 @@ a {
   letter-spacing: 0%;
 }
 
-.class-policy-terms-title {
+.tribe-policy-terms-title {
   text-transform: uppercase;
   font-family: Albert Sans;
   font-weight: 900;
@@ -817,7 +817,7 @@ a {
   letter-spacing: 0%;
 }
 
-.class-policy-terms-text {
+.tribe-policy-terms-text {
   padding-top: 20px;
   font-family: Albert Sans;
   font-weight: 700;
@@ -827,38 +827,38 @@ a {
   letter-spacing: 0%;
 }
 
-.class-policy-terms-texts {
+.tribe-policy-terms-texts {
   padding-top: 8px;
 }
 
-.class-policy-terms-text-one {
+.tribe-policy-terms-text-one {
   padding-top: 20px;
 }
 
-.class-terms-list {
+.tribe-terms-list {
   list-style-type: disc;
   padding: 20px 0 20px 25px;
   display: flex;
   flex-direction: column;
 }
 
-.class-terms-lists {
+.tribe-terms-lists {
   list-style-type: disc;
   padding-left: 25px;
 }
 
-.class-email-link {
+.tribe-email-link {
   color: inherit;
   text-decoration: none;
 }
 
-.class-email-link-color {
+.tribe-email-link-color {
   color: inherit;
   text-decoration: none;
 }
 
 @media screen and (min-width: 1200px) {
-  .class-policy-terms-container {
+  .tribe-policy-terms-container {
     padding: 160px 160px 80px;
     width: 1440px;
     font-family: Albert Sans;
@@ -869,7 +869,7 @@ a {
     letter-spacing: 0%;
   }
 
-  .class-policy-terms-title {
+  .tribe-policy-terms-title {
     font-family: Albert Sans;
     font-weight: 900;
     font-style: italic;
@@ -878,7 +878,7 @@ a {
     letter-spacing: 0%;
   }
 
-  .class-policy-terms-text {
+  .tribe-policy-terms-text {
     padding-top: 40px;
     font-family: Albert Sans;
     font-weight: 700;
@@ -888,15 +888,15 @@ a {
     letter-spacing: 0%;
   }
 
-  .class-policy-terms-text-one {
+  .tribe-policy-terms-text-one {
     padding-top: 30px;
   }
 
-  .class-terms-list {
+  .tribe-terms-list {
     padding: 20px 0 20px 25px;
   }
 }
-.class-footer {
+.tribe-footer {
   width: 375px;
   padding-top: 40px;
   padding-right: 16px;
@@ -907,7 +907,7 @@ a {
   background: rgba(9, 0, 12, 1);
 }
 
-.class-footer-container {
+.tribe-footer-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -915,14 +915,14 @@ a {
   gap: 40px;
 }
 
-.class-footer-wrapper {
+.tribe-footer-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 16px;
 }
 
-.class-footer-text {
+.tribe-footer-text {
   text-decoration: none;
   color: #ffffff;
   font-family: Albert Sans;
@@ -934,7 +934,7 @@ a {
   text-align: center;
 }
 
-.class-footer-copyright {
+.tribe-footer-copyright {
   font-family: Albert Sans;
   font-weight: 400;
   font-style: italic;
@@ -945,11 +945,11 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-footer {
+  .tribe-footer {
     width: 1440px;
   }
 
-  .class-footer-text {
+  .tribe-footer-text {
     font-family: Albert Sans;
     font-weight: 500;
     font-style: italic;
@@ -959,7 +959,7 @@ a {
     text-align: center;
   }
 
-  .class-footer-copyright {
+  .tribe-footer-copyright {
     font-family: Albert Sans;
     font-weight: 400;
     font-style: italic;
@@ -970,7 +970,7 @@ a {
   }
 }
 
-.class-cookie-popup {
+.tribe-cookie-popup {
   position: fixed;
   bottom: 10px;
   width: 375px;
@@ -981,7 +981,7 @@ a {
   display: none;
 }
 
-.class-cookie-popup-text-two {
+.tribe-cookie-popup-text-two {
   font-family: Albert Sans;
   font-weight: 400;
   font-size: 18px;
@@ -992,7 +992,7 @@ a {
   color: rgba(241, 238, 233, 1);
 }
 
-.class-cookie-button-container {
+.tribe-cookie-button-container {
   padding: 40px 0 0;
   margin: auto;
   display: flex;
@@ -1002,7 +1002,7 @@ a {
   gap: 16px;
 }
 
-.class-cookie-button {
+.tribe-cookie-button {
   border: none;
   background-color: transparent;
   border: 1px solid rgba(114, 37, 255, 1);
@@ -1024,7 +1024,7 @@ a {
   color: rgba(255, 255, 255, 1);
 }
 
-.class-close-popup {
+.tribe-close-popup {
   position: absolute;
   top: 10px;
   right: 10px;
@@ -1033,13 +1033,13 @@ a {
 }
 
 @media screen and (min-width: 1200px) {
-  .class-cookie-popup-container {
+  .tribe-cookie-popup-container {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .class-cookie-popup-text-two {
+  .tribe-cookie-popup-text-two {
     font-weight: 400;
     font-size: 18px;
     line-height: 150%;
@@ -1048,7 +1048,7 @@ a {
     width: 622px;
   }
 
-  .class-cookie-button-container {
+  .tribe-cookie-button-container {
     padding: 0;
     margin: auto;
     display: flex;
@@ -1056,7 +1056,7 @@ a {
     gap: 32px;
   }
 
-  .class-cookie-popup {
+  .tribe-cookie-popup {
     position: fixed;
     bottom: 10px;
     width: 1440px;

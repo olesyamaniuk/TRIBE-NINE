@@ -1,5 +1,5 @@
 $(function () {
-  $(".class-gallery-list").slick({
+  $(".tribe-gallery-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -14,7 +14,7 @@ $(function () {
 });
 
 $(function () {
-  $(".class-reviews-list").slick({
+  $(".tribe-reviews-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -25,7 +25,7 @@ $(function () {
     dots: true,
     centerMode: true,
     cssEase: "linear",
-    prevArrow: ".class-reviews-list-left",
-    nextArrow: ".class-reviews-list-right",
+    prevArrow: ".tribe-reviews-list-left",
+    nextArrow: ".tribe-reviews-list-right",
   });
 });
